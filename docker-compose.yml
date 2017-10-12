@@ -8,7 +8,7 @@ services:
     environment:
       DEBUG: "nodemc:*"
     volumes:
-      - ./:/CORE
+      - ./CORE:/CORE
     ports:
       - 8081:80
 
@@ -26,5 +26,5 @@ services:
     environment:
       DEBUG: "nodemc:*"
     volumes:
-      - ./:/scheduler
+      - ./scheduler:/scheduler
       - /var/run/docker.sock:/var/run/docker.sock
