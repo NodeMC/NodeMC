@@ -1,0 +1,8 @@
+
+[submodule "CORE"]
+        path = CORE
+        url = git://github.com/nodemc/CORE.git
+
+[submodule "scheduler"]
+	path = scheduler
+	url = git://github.com/nodemc/scheduler.git
