@@ -29,22 +29,20 @@
 
 Running NodeMC is easy.
 
-**DO NOT RUN `npm install`, INSTEAD REBUILD CONTAINER.**
+**DO NOT RUN `npm install`, INSTEAD RUN `docker-compose build [service]`.**
 
 `docker-compose build` is your friend.
 
 ```bash
-git clone https://github.com/NodeMC/CORE.git NodeMC
+git clone https://github.com/NodeMC/NodeMC.git
 
 cd NodeMC
-
-cp config/config.example.js config/config.js
 
 docker-compose up
 
 ```
 
-Then navigate to `http://localhost:3000` and go through the setup process.
+Then navigate to `http://localhost:8081` and go through the setup process.
 
 ## Maintainers
 
