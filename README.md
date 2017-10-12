@@ -34,7 +34,7 @@ Running NodeMC is easy.
 `docker-compose build` is your friend.
 
 ```bash
-git clone https://github.com/NodeMC/NodeMC.git
+git clone --recursive -j4 https://github.com/NodeMC/NodeMC.git
 
 cd NodeMC
 
